@@ -1633,6 +1633,94 @@ ul, ol {
 	border: none;
 	text-transform: uppercase;
 }
+
+/* BMI Calculator Code */
+.bmi-calculator {
+	max-width: 500px;
+	margin: 0 auto;
+  }
+  
+  .bmi-inputs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  
+  .bmi-inputs label {
+	margin-bottom: 5px;
+  }
+  
+  .bmi-inputs input {
+	width: 100%;
+	max-width: 200px;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+  }
+  
+  .bmi-inputs button {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding: 8px 12px;
+	cursor: pointer;
+  }
+  
+  .bmi-result {
+	text-align: center;
+	display: none;
+  }
+  
+  .bmi-result h3 {
+	margin-bottom: 5px;
+  }
+  
+  .bmi-result span {
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+
+/* Scroll Animation */
+
+.animate-scroll {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s, transform 1s;
+}
+
+.animate-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Slide Up Animation */
+
+@keyframes slide-up {
+	0% {
+	  opacity: 0;
+	  transform: translateY(-100px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+  /* Apply the styles to the section */
+  .animation_slideUp {
+	opacity: 0;
+  }
+  
+  /* Trigger the animation when the section scrolls into view */
+  .is-visible {
+	opacity: 1;
+	animation: slide-up 1s forwards;
+  }
+
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
 @media only screen and (min-width: 1200px) {
