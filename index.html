@@ -67,16 +67,22 @@
             <div class="modal-body">
                 <div class="bmi-calculator">
                     <div class="bmi-inputs">
-                      <label for="height-feet">Height (ft)</label>
-                      <input type="number" id="height-feet" placeholder="ft">
-                  
-                      <label for="height-inches">Height (in)</label>
-                      <input type="number" id="height-inches" placeholder="in">
-                  
-                      <label for="weight">Weight (kg)</label>
-                      <input type="number" id="weight" placeholder="kg">
-                  
-                      <button id="calculate-btn">Calculate BMI</button>
+                        <div class="input-group mb-3">
+                            <label for="height-feet">Height </label>
+                            <input type="number" class="form-control" id="height-feet" placeholder="ft">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="height-inches">Height </label>
+                            <input type="number" class="form-control" id="height-inches" placeholder="in">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="weight">Weight </label>
+                            <input type="number" class="form-control" id="weight" placeholder="kg">
+                        </div>
+                        <div class="input-group mb-3">
+                            <button id="calculate-btn" class="btn primary-btn">Calculate BMI</button>
+                        </div>
+
                     </div>
                   
                     <div class="bmi-result">

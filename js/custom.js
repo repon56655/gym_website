@@ -13,13 +13,16 @@ $(window).on("load resize scroll", function() {
 
 $(document).ready(function() {
     $('#calculate-btn').click(function() {
-      var heightFeet = $('#height-feet').val();
-      var heightInches = $('#height-inches').val();
-      var weight = $('#weight').val();
+      var weight = parseFloat($('#weight').val());
+      var heightFeet = parseFloat($('#height-feet').val());
+      var heightInches = parseFloat($('#height-inches').val());
+      var _height = ((heightFeet*12)+heightInches)*0.0254;
+
+
       
       if (heightFeet > 0 && heightInches >= 0 && weight > 0) {
-        var height = (heightFeet * 12) + parseInt(heightInches);
-        var bmi = (weight / (height * height)) * 703;
+        _height = _height * _height;
+        var bmi = weight / _height;
         $('#bmi-value').text(bmi.toFixed(2));
         $('.bmi-result').show();
       }
