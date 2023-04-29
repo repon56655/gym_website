@@ -801,7 +801,7 @@ ul, ol {
 	color: #9b9b9b;
 	margin-bottom: 11px;
 }
-.register-text .register-form input {
+.register-text .register-form input{
 	width: 100%;
 	height: 46px;
 	border: 1px solid #ebebeb;
@@ -1634,54 +1634,8 @@ ul, ol {
 	text-transform: uppercase;
 }
 
-/* BMI Calculator Code */
-.bmi-calculator {
-	max-width: 500px;
-	margin: 0 auto;
-  }
-  
-  .bmi-inputs {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 20px;
-  }
-  
-  .bmi-inputs label {
-	margin-bottom: 5px;
-  }
-  
-  .bmi-inputs input {
-	width: 100%;
-	max-width: 200px;
-	padding: 8px;
-	margin-bottom: 10px;
-	border: 1px solid #ccc;
-	border-radius: 3px;
-  }
-  
-  .bmi-inputs button {
-	background-color: #4CAF50;
-	color: white;
-	border: none;
-	border-radius: 3px;
-	padding: 8px 12px;
-	cursor: pointer;
-  }
-  
-  .bmi-result {
-	text-align: center;
-	display: none;
-  }
-  
-  .bmi-result h3 {
-	margin-bottom: 5px;
-  }
-  
-  .bmi-result span {
-	font-size: 24px;
-	font-weight: bold;
-  }
+
+
   
 
 /* Scroll Animation */
