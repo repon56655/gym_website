@@ -54,6 +54,28 @@ $(document).ready(function() {
 
     });
 
+    $(window).on("load resize scroll", function() {
+      var scrollTop = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      $(".animation_slideUp").each(function() {
+        var offset = $(this).offset().top;
+        var delay = $(this).data("delay") || 0;
+        if (scrollTop + windowHeight > offset + delay) {
+          $(this).addClass("is-visible");
+        }
+      });
+      $(".animation_slideLeft").each(function() {
+        var offset = $(this).offset().top;
+        var delay = $(this).data("delay") || 0;
+        if (scrollTop + windowHeight > offset + delay) {
+          $(this).addClass("is-visible");
+        }
+      });
+  });
+
+    
+  
+
     // $(document).ready(function() {
     //   $(".register-form").submit(function(event) {
     //     // Prevent the form from submitting normally

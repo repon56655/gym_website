@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style_copy.css" type="text/css">
 </head>
 
 <body>
@@ -66,24 +66,26 @@
             </div>
             <div class="modal-body">
                 <div class="bmi-calculator">
-                    <div class="bmi-inputs">
-                        <div class="input-group mb-3">
-                            <label for="height-feet">Height </label>
-                            <input type="number" class="form-control" id="height-feet" placeholder="ft">
-                        </div>
-                        <div class="input-group mb-3">
-                            <label for="height-inches">Height </label>
-                            <input type="number" class="form-control" id="height-inches" placeholder="in">
-                        </div>
-                        <div class="input-group mb-3">
-                            <label for="weight">Weight </label>
-                            <input type="number" class="form-control" id="weight" placeholder="kg">
-                        </div>
-                        <div class="input-group mb-3">
-                            <button id="calculate-btn" class="btn primary-btn">Calculate BMI</button>
-                        </div>
+                    <form action="#" method="post">
+                        <div class="bmi-inputs">
+                            <div class="input-group mb-3">
+                                <label for="height-feet">Height</label>
+                                <input type="number" class="form-control ml-2" id="height-feet" placeholder="ft">
+                            </div>
+                            <div class="input-group mb-3">
+                                <label for="height-inches">Height </label>
+                                <input type="number" class="form-control ml-2" id="height-inches" placeholder="in">
+                            </div>
+                            <div class="input-group mb-3">
+                                <label for="weight">Weight </label>
+                                <input type="number" class="form-control ml-2" id="weight" placeholder="kg">
+                            </div>
+                            <div class="input-group mb-3">
+                                <button id="calculate-btn" class="btn primary-btn">Calculate BMI</button>
+                            </div>
 
-                    </div>
+                        </div>
+                    </form>
                   
                     <div class="bmi-result d-none">
                       <p class="text-white">Your BMI: <span id="bmi-value"></span></p>
@@ -92,7 +94,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger btn-md" data-dismiss="modal">Close</button>
             </div>
         </div>
         </div>
@@ -104,9 +106,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="hero-text">
-                        <span>FITNESS ELEMENTS</span>
-                        <h1>BMI CALCULATOR</h1>
-                        <p>Gutim comes packed with the user-friendly BMI Calculator<br /> shortcode which lets</p>
+                        <h1 style="color:red;">SHAPE YOUR PERFECT BODY</h1>
                         <a href="#" class="primary-btn">Read More</a>
                     </div>
                 </div>
@@ -122,20 +122,16 @@
                 <div class="col-lg-6">
                     <div class="about-pic">
                         <img src="img/about-pic.jpg" alt="">
-                        <a href="https://www.youtube.com/watch?v=SlPhMPnQ58k" class="play-btn video-popup">
+                        <a href="https://www.youtube.com/watch?v=KO878Zj9BGM" class="play-btn video-popup">
                             <img src="img/play.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-text">
-                        <h2>Story About Us</h2>
-                        <p class="first-para">Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium
-                            sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate
-                            cursus a amet.</p>
-                        <p class="second-para">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida
-                            quam semper libero sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
-                            rhoncus, gravida quam semper libero sit amet.</p>
+                        <h2 class="h2_heading" style="color:blue; text-align: right;">About Us</h2>
+                        <p>We are a community-focused gym that has been serving the local area for over 20 years. Our mission is to provide a friendly and welcoming environment where people of all fitness levels can achieve their health and wellness goals.</p>
+                        <p>We offer a wide range of fitness classes, personal training, and gym equipment to meet the needs of our members. Our trainers are highly qualified and passionate about helping people improve their health and fitness.</p>
                         <a href="#" class="primary-btn">Read More</a>
                     </div>
                 </div>
@@ -144,53 +140,49 @@
     </section>
     <!-- About Section End -->
 
-    <!-- Services Section Begin -->
-    <section class="services-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="services-pic">
-                        <img src="img/services/service-pic.jpg" alt="">
-                    </div>
+<!-- Services Section Begin -->
+<section class="services-section animation_slideUp">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="services-pic">
+                    <img src="img/services/service-pic.jpg" alt="">
                 </div>
-                <div class="col-lg-6">
-                    <div class="service-items">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="services-item bg-gray">
-                                    <img src="img/services/service-icon-1.png" alt="">
-                                    <h4>Strategies</h4>
-                                    <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
-                                        montes.</p>
-                                </div>
-                                <div class="services-item bg-gray pd-b">
-                                    <img src="img/services/service-icon-3.png" alt="">
-                                    <h4>Workout</h4>
-                                    <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
-                                        montes.</p>
-                                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="service-items">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="services-item bg-gray">
+                                <img src="img/services/service-icon-1.png" alt="">
+                                <h4>Strategies</h4>
+                                <p>Discover the most effective fitness strategies to achieve your goals.</p>
                             </div>
-                            <div class="col-md-6">
-                                <div class="services-item">
-                                    <img src="img/services/service-icon-2.png" alt="">
-                                    <h4>Yoga</h4>
-                                    <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
-                                        montes.</p>
-                                </div>
-                                <div class="services-item pd-b">
-                                    <img src="img/services/service-icon-4.png" alt="">
-                                    <h4>Weight Loss</h4>
-                                    <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
-                                        montes.</p>
-                                </div>
+                            <div class="services-item bg-gray pd-b">
+                                <img src="img/services/service-icon-3.png" alt="">
+                                <h4>Workout</h4>
+                                <p>Get fit and stay motivated with our challenging workout programs.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-item">
+                                <img src="img/services/service-icon-2.png" alt="">
+                                <h4>Yoga</h4>
+                                <p>Unleash the power of your mind, body, and soul with our Yoga classes.</p>
+                            </div>
+                            <div class="services-item pd-b">
+                                <img src="img/services/service-icon-4.png" alt="">
+                                <h4>Weight Loss</h4>
+                                <p>Lose weight with our personalized plans.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Services Section End -->
+    </div>
+</section>
+<!-- Services Section End -->
 
     <!-- Trainer Section Begin -->
     <section class="trainer-section spad">
@@ -198,7 +190,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>EXPERT TRAINERS</h2>
+                        <h2 style="color:blue;text-align: right;">EXPERT TRAINERS</h2>
                     </div>
                 </div>
             </div>
@@ -207,7 +199,7 @@
                     <div class="single-trainer-item">
                         <img src="img/trainer/trainer-1.jpg" alt="">
                         <div class="trainer-text">
-                            <h5>Patrick Cortez</h5>
+                            <h6><strong>Patrick Cortez</strong></h6>
                             <span>Leader</span>
                             <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                                 voluptatem.</p>
@@ -224,7 +216,7 @@
                     <div class="single-trainer-item">
                         <img src="img/trainer/trainer-2.jpg" alt="">
                         <div class="trainer-text">
-                            <h5>Gregory Powers</h5>
+                            <h6><strong>Gregory Powers</strong></h6>
                             <span>Gym coach</span>
                             <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                                 voluptatem.</p>
@@ -241,7 +233,7 @@
                     <div class="single-trainer-item">
                         <img src="img/trainer/trainer-3.jpg" alt="">
                         <div class="trainer-text">
-                            <h5>Walter Wagner</h5>
+                            <h6><strong>Walter Wagner</strong></h6>
                             <span>Dance trainer</span>
                             <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
                                 voluptatem.</p>
@@ -261,15 +253,15 @@
 
 
     <!-- Banner Section Begin -->
-    <section class="banner-section set-bg" data-setbg="img/banner-bg.jpg">
+    <section class="banner-section" style="background: linear-gradient(to right, #eb3c5a, #f67831);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="banner-text">
-                        <h2>Get training today</h2>
-                        <p>Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                            industry’s standard.</p>
-                        <a href="#register" class="primary-btn banner-btn">Contact Now</a>
+                        <blockquote class="blockquote">
+                            <h3 class="text-white"><span> ❝</span> Don’t give up on your dreams, or your dreams will give up on you. <span>❞</span></h3>
+                            <p>– <em>John Wooden</em></p>
+                        </blockquote>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -286,95 +278,61 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>MEMBERSHIP PLANS</h2>
+                        <h2 style="font-weight: bolder; color:blue; text-align: right;">MEMBERSHIP PLANS</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="membership-item">
-                        <div class="mi-title">
-                            <h4>Basic</h4>
-                            <div class="triangle"></div>
-                        </div>
-                        <h2 class="mi-price">$17<span>/01 mo</span></h2>
-                        <ul>
-                            <li>
-                                <p>Duration</p>
-                                <span>12 months</span>
-                            </li>
-                            <li>
-                                <p>Personal trainer</p>
-                                <span>00 person</span>
-                            </li>
-                            <li>
-                                <p>Amount of people</p>
-                                <span>01 person</span>
-                            </li>
-                            <li>
-                                <p>Number of visits</p>
-                                <span>Unlimited</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="primary-btn membership-btn">Start Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="membership-item">
-                        <div class="mi-title">
-                            <h4>Standard</h4>
-                            <div class="triangle"></div>
-                        </div>
-                        <h2 class="mi-price">$57<span>/01 mo</span></h2>
-                        <ul>
-                            <li>
-                                <p>Duration</p>
-                                <span>12 months</span>
-                            </li>
-                            <li>
-                                <p>Personal trainer</p>
-                                <span>01 person</span>
-                            </li>
-                            <li>
-                                <p>Amount of people</p>
-                                <span>01 person</span>
-                            </li>
-                            <li>
-                                <p>Number of visits</p>
-                                <span>Unlimited</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="primary-btn membership-btn">Start Now</a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="membership-item">
-                        <div class="mi-title">
-                            <h4>Premium</h4>
-                            <div class="triangle"></div>
-                        </div>
-                        <h2 class="mi-price">$98<span>/01 mo</span></h2>
-                        <ul>
-                            <li>
-                                <p>Duration</p>
-                                <span>12 months</span>
-                            </li>
-                            <li>
-                                <p>Personal trainer</p>
-                                <span>01 person</span>
-                            </li>
-                            <li>
-                                <p>Amount of people</p>
-                                <span>01 person</span>
-                            </li>
-                            <li>
-                                <p>Number of visits</p>
-                                <span>Unlimited</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="primary-btn membership-btn">Start Now</a>
-                    </div>
-                </div>
+                <table class="table table-borderless table-dark table-hover">
+                    <thead>
+                        <tr class="heading_row">
+                            <th scope="col">#</th>
+                            <th class="text-center h3" scope="col">BASIC</th>
+                            <th class="text-center h3" scope="col">STANDARD</th>
+                            <th class="text-center h3" scope="col">PREMIUM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="py-3 align-middle">Cost</th>
+                            <td class="text-center py-3"><span class="h3" style="color:#f15d44">$17</span>/01 mo</td>
+                            <td class="text-center py-3"><span class="h3" style="color:#f15d44">$57</span>/01 mo</td>
+                            <td class="text-center py-3"><span class="h3" style="color:#f15d44">$98</span>/01 mo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-3">Duration</th>
+                            <td class="text-center py-3">12 months</td>
+                            <td class="text-center py-3">12 months</td>
+                            <td class="text-center py-3">12 months</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-3">Personal trainer</th>
+                            <td class="text-center py-3">00 person</td>
+                            <td class="text-center py-3">01 person</td>
+                            <td class="text-center py-3">01 person</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-3">Amount of people</th>
+                            <td class="text-center py-3">01 person</td>
+                            <td class="text-center py-3">01 person</td>
+                            <td class="text-center py-3">01 person</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-3">Number of visits</th>
+                            <td class="text-center py-3">Unlimited</td>
+                            <td class="text-center py-3">Unlimited</td>
+                            <td class="text-center py-3">Unlimited</td>
+                        </tr>
+                        <tr class="last_row">
+                            <th scope="row" class="py-3">Number of visits</th>
+                            <td class="text-center py-3"><a href="#" class="primary-btn membership-btn">Start Now</a></td>
+                            <td class="text-center py-3"><a href="#" class="primary-btn membership-btn">Start Now</a></td>
+                            <td class="text-center py-3"><a href="#" class="primary-btn membership-btn">Start Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                                 
+                
             </div>
         </div>
     </section>
@@ -387,8 +345,7 @@
                 <div class="col-lg-8">
                     <div class="register-text">
                         <div class="section-title">
-                            <h2>Contact Us</h2>
-                            <p>The First 7 Day Trial Is Completely Free With The Teacher</p>
+                            <h2 style="color:blue; text-align: right">Contact Us</h2>
                         </div>
                         <span id="register"></span>
                         <form action="sendmail.php" class="register-form" method="post">
@@ -432,19 +389,19 @@
                 <div class="col-md-4">
                     <div class="contact-option">
                         <span>Phone</span>
-                        <p>(123) 118 9999 - (123) 118 9999</p>
+                        <p>(+61) 0480329065</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="contact-option">
                         <span>Address</span>
-                        <p>72 Kangnam, 45 Opal Point Suite 391</p>
+                        <p>level 14/233 Castlereagh St, Sydney NSW 2000</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="contact-option">
                         <span>Email</span>
-                        <p>contactcompany@Gutim.com</p>
+                        <p>hasibul460@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -459,13 +416,9 @@
                 </form>
             </div>
             <div class="copyright-text">
-                <ul>
-                    <li><a href="#">Term&Use</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-                <p>&copy;<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></p>
+
+                <p>&copy;<p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script><a href="#" target="_blank"> Group A7</a> All rights reserved </p></p>
                 <div class="footer-social">
                     <a href="#"><i class="fa fa-facebook"></i></a>
                     <a href="#"><i class="fa fa-twitter"></i></a>
