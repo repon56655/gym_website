@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Gutim Template">
+    <meta name="keywords" content="Gutim, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MAB</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style_copy.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Classes</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#" class="" data-toggle="modal" data-target="#myModal">Check BMI</a></li>
+                
+                    </ul>
+                </nav>
+                
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">BMI Calculator</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="bmi-calculator">
+                        <div class="bmi-inputs">
+                            <div class="input-group mb-3">
+                                <label for="height-feet">Height</label>
+                                <input type="number" class="form-control ml-2" id="height-feet" placeholder="ft">
+                            </div>
+                            <div class="input-group mb-3">
+                                <label for="height-inches">Height </label>
+                                <input type="number" class="form-control ml-2" id="height-inches" placeholder="in">
+                            </div>
+                            <div class="input-group mb-3">
+                                <label for="weight">Weight </label>
+                                <input type="number" class="form-control ml-2" id="weight" placeholder="kg">
+                            </div>
+                            <div class="input-group mb-3">
+                                <button id="calculate-btn" class="btn primary-btn">Calculate BMI</button>
+                            </div>
+
+                        </div>
+                  
+                    <div class="bmi-result d-none">
+                      <p class="text-white">Your BMI: <span id="bmi-value"></span></p>
+                      <h3 id="bmi_result_notification"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger btn-md" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section set-bg" data-setbg="img/hero-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="hero-text">
+                        <h1 style="color:white;">SHAPE YOUR PERFECT BODY</h1>
+                        <a href="#" class="primary-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Begin -->
+    <section class="about-section spad animation_slideUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <img src="img/about-pic.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=KO878Zj9BGM" class="play-btn video-popup">
+                            <img src="img/play.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h2 class="h2_heading" style="color:#EF534A; text-align: right;">About Us</h2>
+                        <p>We are a community-focused gym that has been serving the local area for over 20 years. Our mission is to provide a friendly and welcoming environment where people of all fitness levels can achieve their health and wellness goals.</p>
+                        <p>We offer a wide range of fitness classes, personal training, and gym equipment to meet the needs of our members. Our trainers are highly qualified and passionate about helping people improve their health and fitness.</p>
+                        <a href="#" class="primary-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+<!-- Services Section Begin -->
+<section class="services-section animation_slideUp">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="services-pic">
+                    <img src="img/services/service-pic.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="service-items">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="services-item bg-gray">
+                                <img src="img/services/service-icon-1.png" alt="">
+                                <h4>Strategies</h4>
+                                <p>Discover the most effective fitness strategies to achieve your goals.</p>
+                            </div>
+                            <div class="services-item bg-gray pd-b">
+                                <img src="img/services/service-icon-3.png" alt="">
+                                <h4>Workout</h4>
+                                <p>Get fit and stay motivated with our challenging workout programs.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-item">
+                                <img src="img/services/service-icon-2.png" alt="">
+                                <h4>Yoga</h4>
+                                <p>Unleash the power of your mind, body, and soul with our Yoga classes.</p>
+                            </div>
+                            <div class="services-item pd-b">
+                                <img src="img/services/service-icon-4.png" alt="">
+                                <h4>Weight Loss</h4>
+                                <p>Lose weight with our personalized plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services Section End -->
+
+    <!-- Trainer Section Begin -->
+    <section class="trainer-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2 style="color:#EF534A;text-align: right;">EXPERT TRAINERS</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-trainer-item">
+                        <img src="img/trainer/trainer-1.jpg" alt="">
+                        <div class="trainer-text">
+                            <h6><strong>Patrick Cortez</strong></h6>
+                            <span>Leader</span>
+                            <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                                voluptatem.</p>
+                            <div class="trainer-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-trainer-item">
+                        <img src="img/trainer/trainer-2.jpg" alt="">
+                        <div class="trainer-text">
+                            <h6><strong>Gregory Powers</strong></h6>
+                            <span>Gym coach</span>
+                            <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                                voluptatem.</p>
+                            <div class="trainer-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-trainer-item">
+                        <img src="img/trainer/trainer-3.jpg" alt="">
+                        <div class="trainer-text">
+                            <h6><strong>Walter Wagner</strong></h6>
+                            <span>Dance trainer</span>
+                            <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                                voluptatem.</p>
+                            <div class="trainer-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trainer Section End -->
+
+
+    <!-- Banner Section Begin -->
+    <section class="banner-section" id="banner-section" style="background: linear-gradient(to right, #eb3c5a, #f67831);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-text">
+                        <blockquote class="blockquote">
+                            <h3 class="text-white"><span> ❝</span> Don’t give up on your dreams, or your dreams will give up on you. <span>❞</span></h3>
+                            <p>– <em>John Wooden</em></p>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="img/banner-person.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Membership Section Begin -->
+    <section class="membership-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2 style="font-weight: bolder; color:#EF534A; text-align: right;">MEMBERSHIP PLANS</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table table-borderless table-dark table-hover">
+                    <thead>
+                        <tr class="heading_row">
+                            <th scope="col">#</th>
+                            <th class="text-center h3" scope="col">BASIC</th>
+                            <th class="text-center h3" scope="col">STANDARD</th>
+                            <th class="text-center h3" scope="col">PREMIUM</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="py-3 align-middle">Cost</th>
+                            <td class="text-center py-3"><span class="h3" style="color:#f15d44">$17</span>/01 mo</td>
+                            <td class="text-center py-3"><span class="h3" style="color:#f15d44">$57</span>/01 mo</td>
+                            <td class="text-center py-3"><span class="h3" style="color:#f15d44">$98</span>/01 mo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-3">Duration</th>
+                            <td class="text-center py-3">12 months</td>
+                            <td class="text-center py-3">12 months</td>
+                            <td class="text-center py-3">12 months</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-3">Personal trainer</th>
+                            <td class="text-center py-3">00 person</td>
+                            <td class="text-center py-3">01 person</td>
+                            <td class="text-center py-3">01 person</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-3">Amount of people</th>
+                            <td class="text-center py-3">01 person</td>
+                            <td class="text-center py-3">01 person</td>
+                            <td class="text-center py-3">01 person</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="py-3">Number of visits</th>
+                            <td class="text-center py-3">Unlimited</td>
+                            <td class="text-center py-3">Unlimited</td>
+                            <td class="text-center py-3">Unlimited</td>
+                        </tr>
+                        <tr class="last_row">
+                            <th scope="row" class="py-3">Number of visits</th>
+                            <td class="text-center py-3"><a href="#" class="primary-btn membership-btn">Start Now</a></td>
+                            <td class="text-center py-3"><a href="#" class="primary-btn membership-btn">Start Now</a></td>
+                            <td class="text-center py-3"><a href="#" class="primary-btn membership-btn">Start Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                                 
+                
+            </div>
+        </div>
+    </section>
+    <!-- Membership Section End -->
+
+    <!-- Register Section Begin -->
+    <section class="register-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="register-text">
+                        <div class="section-title">
+                            <h2 style="color:#EF534A; text-align: right">Contact Us</h2>
+                        </div>
+                        <span id="register"></span>
+                        <form action="sendmail.php" class="register-form" method="post">
+                            <div class="row">
+                                
+                                <div class="col-lg-6">
+                                    <label for="email">Your email address</label>
+                                    <input type="text" class="form-control" id="email" name="email">
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" name="subject">
+                                </div>
+                                
+                                <div class="col-lg-12">
+                                    <label for="message">Message</label>
+                                    <textarea type="text" class="form-control" name="message" id="message" cols="30" rows="4"></textarea>
+                                </div>
+
+                            </div>
+                            <button type="submit" class="register-btn">Get Started</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="register-pic">
+                        <img src="img/register-pic.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Register Section End -->
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-option">
+                        <span>Phone</span>
+                        <p>(+61) 0480329065</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-option">
+                        <span>Address</span>
+                        <p>level 14/233 Castlereagh St, Sydney NSW 2000</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-option">
+                        <span>Email</span>
+                        <p>hasibul460@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-option set-bg" data-setbg="img/footer-signup.jpg">
+                <div class="so-text">
+                    <h4>Subscribe To Our Mailing List</h4>
+                    <p>Sign up to receive the latest information </p>
+                </div>
+                <form action="#" class="subscribe-form">
+                    <input type="text" placeholder="Enter Your Mail">
+                    <button type="submit"><i class="fa fa-send"></i></button>
+                </form>
+            </div>
+            <div class="copyright-text">
+
+                <p>&copy;<p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script><a href="#" target="_blank"> Group A7</a> All rights reserved </p></p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
